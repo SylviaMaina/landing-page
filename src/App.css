@@ -1,38 +1,135 @@
-.App {
+body{
+  width: 1440px;
+}
+/*navigation and header*/
+.logo{
+color:  hsl(0, 0%, 100%);
+margin-right: 25rem;
+margin-top: 1.875rem;
+position: relative;
+padding-left: 1.5625rem;
+padding-top: 1.5625rem;
+width: 200px;
+}
+.create p{
+  position: absolute;
+  bottom: 38.5rem;
+  left: 38.625rem;
+  font-family: 'Fraunces', serif;
+  font-size: xx-large;
+  letter-spacing: 3px;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+}
+.arrow img{
+  position: absolute;
+  bottom: 28.5rem;
+  left: 46.625rem;
+  width: 50px;
+  height: 100px;
+  
+}
+.nav {
+  margin-left: 25rem;
+  margin-top: -1.975rem;
+  position: relative;
+  justify-content: space-evenly;
+  
+}
+.nav a{
+  color: hsl(0, 0%, 100%);
+  font-family: 'Barlow', sans-serif;
+  font-size: x-large;
+}
+.nav button{
+  background-color: transparent;
+  outline: none;
+  border-radius: 20px;
+}
+.banner{
+  position: absolute;
+  width: 99rem;
+  height: 62vh;
+}
+
+/*containers*/
+.row{
+  background-color: white;
+  padding: none;
+  display: relative;
+  margin-top: 390px;
+  width: 100rem;
+}
+
+.col h1{
+  font-family: 'Fraunces', serif;
+  font-size: xx-large;
+  text-align: left;
+}
+.col p{
+  font-family: 'Barlow', sans-serif;
+  font-size: medium;
+  text-align: left;
+}
+
+.side h1{
+  position: relative;
+  font-family: 'Barlow', sans-serif;
+  font-size: x-large;
+  bottom: 15.5rem;
+  letter-spacing: 3px;
+  color: black;
   text-align: center;
+  text-transform: uppercase;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.side p{
+  position: relative;
+  font-family: 'Barlow', sans-serif;
+  font-size:medium;
+  bottom: 15.5rem;
+  text-align: center;
+  letter-spacing: 3px;
+  color: black;
+  text-transform: uppercase;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*review cards */
+.card-deck{
+  width: 100rem;
+  height: 500px;
+}
+.card img{
+  justify-content: space-evenly;
+  margin-left: 100px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+/*footer*/
+.footer{
+  background-color:   hsl(168, 34%, 41%);
+  width:100rem;
+}
+.logof{
+  justify-content: space-evenly;
+  margin-left: 630px;
+  height: 100px;
+  width: 100%;
+}
+.socials{
+  margin-left: 600px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.foot{
+  margin-left: 600px;
+  align-items: center;
+  padding: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.foot button{
+  background-color: transparent;
+  outline: none;
+  border-radius: 20px;
+  
 }
